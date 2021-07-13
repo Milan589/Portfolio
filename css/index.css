@@ -24,8 +24,8 @@ img{
           list-style: none;
       margin: auto;
         display: inline-block;
-      padding: 40px 40px 0px 40px;
-        font-size: 28px;
+      padding: 20px 10px 0px 20px;
+        font-size: 24px;
     
     }
        a{
@@ -140,9 +140,21 @@ bg-light{
 .fa-instagram{
  color: #bc2a8d;
 }
+h4{
+  font-size: 1.7em;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+}
 #project{
   height: auto;
-  width: auto;
-  color: #333;
- background-color: #3b5998;
+  width: 100%;
+  color:#fff;
+ background-color: #44c7f4;
+ float: left;
+ margin: auto;
+}
+#project .git-file{
+text-align: center;
+ margin: auto;
 }
