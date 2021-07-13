@@ -1,0 +1,142 @@
+
+img{
+    vertical-align: center;
+    display: block;
+    margin:auto;
+  }
+    .container{
+        margin: auto;
+        max-width: 550px;
+    }
+    
+    #home{
+      background: url(../images/banner.jpg) no-repeat center top;
+    background-size: cover;
+    height:auto;
+    padding-bottom: 20px;
+    position: relative;
+    }
+
+    #home .homebutton li {
+        margin: auto;
+          color: #fff;
+          font-family: Muli,Helvetica Neue,sans-serif;
+          list-style: none;
+      margin: auto;
+        display: inline-block;
+      padding: 40px 40px 0px 40px;
+        font-size: 28px;
+    
+    }
+       a{
+         text-decoration: none;
+         color: #fff;
+         text-align: center;
+         font-family: Muli,Helvetica Neue,sans-serif;
+         padding: 7px;
+         display: inline-block;
+       }
+
+    .nav{
+         margin: auto;
+        text-align: center;
+        padding-top: 3em;
+      
+        }
+    
+    
+      .nav img {
+           
+        text-align: center;
+        border: 3px solid #44c7f4;
+      }
+    
+    
+    .my-image{
+     
+        box-sizing: border-box;
+           margin-top: 20px;
+    
+    }
+    
+    h2{
+          text-align:center;
+          text-transform: uppercase;
+          margin-top: 20px;
+          margin-bottom: 10px;
+          line-height: 1.1;
+         
+      }
+    
+      .nav h2 {
+        font-size: 1.7em;
+        color: #fff;
+        letter-spacing: 6px;
+      }
+      .nav span {
+        color: #44c7f4;
+        letter-spacing:4px;
+        font-size:0.9em;
+        font-family: Muli,Helvetica Neue,sans-serif;
+        padding-top: 50px;
+    }
+    
+    
+       h3{display: block;
+        font-weight: bold;
+        font-family: Muli,Helvetica Neue,sans-serif;
+      }
+      #home .homebutton li a:hover,
+      #home .homebutton li a.current {
+        background: #44c7f4;
+        color:#000;
+        border-radius: 10px;
+        opacity: 0.8;
+      }
+     
+      /*Features*/
+ .box{ 
+  float: left;
+  width:30%;
+  padding: 20px;
+  text-align: center;
+  font-family: Muli,Helvetica Neue,sans-serif;
+}
+.box i{
+  margin-bottom: 10px;
+}
+bg-light{
+	background: #f4f4f4;
+	color: #333;
+}
+.bg-primary{
+	color: #333;
+	background: #f7c08a;
+}
+/*Footer*/
+#main-footer{
+	width: 100%;
+	float: left;
+	text-align: center;
+  font-family: Muli,Helvetica Neue,sans-serif;
+	background: #444;
+	color: #fff;
+	padding: 10px;
+}
+
+#main-footer span{
+  padding-left: 5px;
+  font-family: Muli,Helvetica Neue,sans-serif;
+}
+  .fa-github{
+    color: #4078c0;
+
+  }
+
+.fa-facebook-square{
+ color: #3b5998;
+
+}
+.fa-instagram{
+ color: #bc2a8d;
+}
