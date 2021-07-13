@@ -140,3 +140,9 @@ bg-light{
 .fa-instagram{
  color: #bc2a8d;
 }
+#project{
+  height: auto;
+  width: auto;
+  color: #333;
+ background-color: #3b5998;
+}

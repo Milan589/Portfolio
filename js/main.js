@@ -20,9 +20,9 @@ async function main() {
     // console.log(jsondata)
     // console.log(jsondata['avatar_url'])
     let user_name = "I'm  "+jsondata['name']
-  //  document.getElementById('profile_img').src = jsondata['avatar_url']
+    document.getElementById('profile_img').src = jsondata['avatar_url']
     // return jsondata;
-   // document.getElementById('full_name').textContent = user_name
+   document.getElementById('full_name').textContent = user_name
   //  document.getElementById('github').href = jsondata['html_url']
     project_json = await getJson(repo_url)
     console.log(project_json)
@@ -56,6 +56,6 @@ async function main() {
         listContainer.appendChild(listItem);
 
     });
-    document.querySelector('.injection').appendChild(listContainer);
+    document.querySelector('.git-file').appendChild(listContainer);
 }
 main();
