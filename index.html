@@ -8,20 +8,25 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/04bcc179f7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div id="home">
         <div class="container">
+
             <div class="homebutton">
-
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#features">Skills</a></li>
-                <li><a href="#project">Projects</a></li>
-                <li><a href="#main-footer">About</a></li>
-
+                <div class="openMenu"> <i class="fa-solid fa-bars"></i></div>
+                <ul class="mainMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#features">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#main-footer">About</a></li>
+                    <div class="closeMenu"><i class="fas fa-times"></i></div>
+                </ul>
             </div>
         </div>
+
 
         <div class="nav">
             <img src="" alt=" " id="profile_img" height="200" width="175">
@@ -31,41 +36,63 @@
 
         </div>
     </div>
+
     <section id="features">
-        <div class="box bg-light">
-            <i class="fab fa-html5 fa-4x"></i>
-            <h3>Html</h3>
-            <p>I've experienced in using Html5 with CSS3 and Bootstrap5.</p>
-        </div>
-        <div class="box bg-primary">
-            <i class="fab fa-js fa-4x"></i>
-            <h3>JavaScript</h3>
-            <p>I've learned basics of Js and just started to learn React Js.</p>
-        </div>
-        <div class="box bg-light">
-            <i class="fab fa-python fa-4x"></i>
-            <h3>Python</h3>
-            <p>I've learned basic of python with django framework and other python library. </p>
+        <div id="skills">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box bg-light">
+                        <i class="fab fa-html5 fa-4x"></i>
+                        <h3>Html</h3>
+                        <p>I've experienced in using Html5 with CSS3 and Bootstrap5.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box bg-primary">
+                        <i class="fab fa-js fa-4x"></i>
+                        <h3>JavaScript</h3>
+                        <p>I've learned basics of Js and just started to learn React Js.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box bg-light">
+                        <i class="fab fa-python fa-4x"></i>
+                        <h3>Python</h3>
+                        <p>I've learned basic of python with django framework and other python library. </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box bg-primary">
+                        <i class="fab fa-php fa-4x"></i>
+                        <h3>PHP</h3>
+                        <p>I've learned basic of php functions and other php library. </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+
     <section id="project">
         <h4>Projects</h4>
         <div class="git-file">
         </div>
     </section>
+
     <footer id="main-footer">
         <p>Check me out:
             <span><a href="https://github.com/Milan589" target="#"><i class="fab fa-github"></i></a></span>
             <span><a href="https://www.instagram.com/milan_chaudhary_307" target="#"><i
                         class="fab fa-instagram"></i></a></span>
             <span>
-                <a href="https://www.facebook.com/milan.chaudhary.714655" target="#"><i
+                <a href="https://www.facebook.com/milan.chaudhary.101" target="#"><i
                         class="fab fa-facebook-square"></i></a></span>
         </p>
-        <p> &copy; 2021, All Rights Reserved</p>
+        <p> &copy; <script>document.write(new Date().getFullYear())</script> , All Rights Reserved</p>
 
     </footer>
     <script src="./js/main.js"></script>
+    <script src="./js/index.js "> </script>
 </body>
 
 </html>
