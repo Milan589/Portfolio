@@ -8,7 +8,8 @@ img {
   margin: auto;
   max-width: 550px;
 }
-.container1{
+
+.container1 {
   margin: auto;
   max-width: 1100px;
 }
@@ -29,7 +30,7 @@ img {
   list-style: none;
   margin: auto;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 
 }
 
@@ -42,27 +43,30 @@ a {
   display: inline-block;
 }
 
- .openMenu{
+.openMenu {
   display: none;
 
 }
- .closeMenu{
+
+.closeMenu {
   display: none;
 }
- .mainMenu{
+
+.mainMenu {
   display: flex;
   list-style: none;
 }
- .mainMenu li a{
+
+.mainMenu li a {
   display: inline-block;
   margin-left: auto;
   padding: 15px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #42A5FF;
-  font-size: 22px;
+  color: #fff;
+  font-size: 16px;
   font-weight: 400;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav {
@@ -70,18 +74,15 @@ a {
   text-align: center;
   padding-top: 3em;
 
+
 }
 
-
 .nav img {
-
   text-align: center;
   border: 3px solid #44c7f4;
 }
 
-
 .my-image {
-
   box-sizing: border-box;
   margin-top: 20px;
 
@@ -116,10 +117,11 @@ h3 {
   font-weight: bold;
   font-family: Muli, Helvetica Neue, sans-serif;
 }
-p{
+
+p {
   font-size: 16px;
   font-weight: 200;
- 
+
 }
 
 #home .homebutton li a:hover,
@@ -144,29 +146,29 @@ p{
   display: block;
 }
 
-bg-light {
+.bg-light {
   background: #f4f4f4;
   color: #333;
 }
-
 .bg-primary {
   color: #333;
   background: #f7c08a;
 }
-
 #skills {
   display: flex;
-
-  justify-content:space-around;
-  padding:  30px 30px 0px 30px;
+  justify-content: space-around;
+  padding: 30px 30px 0px 30px;
 }
-.row{
+
+.row {
   display: flex;
   justify-content: flex-start;
 }
-#features{
+
+#features {
   margin-bottom: 20px;
 }
+
 /*Footer*/
 #main-footer {
   width: 100%;
@@ -182,30 +184,34 @@ bg-light {
   padding-left: 5px;
   font-family: Muli, Helvetica Neue, sans-serif;
 }
-.fa-solid, .fas {
- margin-top: 30px;
- display: flex;
- justify-content:end;
-  color: #fff;
-}
+
+.fa-solid,
 .fas {
   margin-top: 30px;
   display: flex;
-  justify-content:end;
-   color: #44c7f4;
- }
+  justify-content: end;
+  color: #fff;
+}
+
+.fas {
+  margin-top: 30px;
+  display: flex;
+  justify-content: end;
+  color: #44c7f4;
+}
+
 .fa-github {
-  color: #4078c0;
+  color: #fff;
 
 }
 
 .fa-facebook-square {
-  color: #3b5998;
+  color: #fff;
 
 }
 
 .fa-instagram {
-  color: #bc2a8d;
+  color: #fff;
 }
 
 h4 {
@@ -220,7 +226,7 @@ h4 {
   width: 100%;
   color: #fff;
   background-color: #44c7f4;
-float: left;
+  float: left;
   margin: auto;
 }
 
@@ -229,42 +235,67 @@ float: left;
   margin: auto;
 }
 
-@media(max-width: 640px){
- .row{
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
+@media(max-width: 640px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
- }
- .mainMenu{
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 10;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  transition: top 1s ease;
-  display: none;
-}
-.openMenu i{
-  padding: 0px 40px 10px 40px;
-  display: block;
-  flex-wrap: wrap;
-}
-.mainMenu .closeMenu{
-  display: block;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-.openMenu{
-  display: block;
-  flex-wrap: wrap;
-}
+  }
+
+  .mainMenu li a {
+    display: inline-block;
+    margin-left: auto;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #44c7f4;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #home .homebutton li a:hover,
+  #home .homebutton li a.current {
+    background: #44c7f4;
+    color: #fff;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .mainMenu {
+    height: 65vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #44c7f4;
+    transition: top 1s ease;
+    display: none;
+  }
+
+  .openMenu i {
+    padding: 0px 40px 10px 40px;
+    display: block;
+    flex-wrap: wrap;
+  }
+
+  .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .openMenu {
+    display: block;
+    flex-wrap: wrap;
+  }
 
 
 }
